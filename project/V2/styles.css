@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+/*
+CIS 155 Web Development - Project- V1 Style Sheet
+Developer: Javaris Taylor
+Date: 5/1/20
+
+Filename: style.css
+
+*/
+body {
+    background-color:peachpuff;
+    background-image: url(kitchen.jpg);
+}
+section{
+    display: block;
+    position: static;
+}
+/*M3LO9 Demonstrate fixed, static, or inherited positioning| Making the section static will allow section
+to remain under the nav and above my article with no overlapping due to the relative position of the other attributes.*/
+article a{
+    padding-right: 5px;
+    padding-left: 10px;
+    position: relative;
+}
+div{
+    text-align: center;
+    box-sizing: border-box;
+   /* -webkit-box-align: left;
+    -webkit-box-sizing: border-box;*/
+}
+/* The validator suggested that i just go with the default box sizing instead of the webkit.*/
+.grid-materials{
+    display: grid;
+    background-image: linear-gradient(white, grey);
+    max-width: 50%;
+    overflow: auto;
+    border-radius: 25px;
+}
+/*M4LO3 Demonstrate the use of rounded corners for borders| This will allow the grid box to have rounded edges and a nicer look*/
+/*M3LO6 Demonstrate formatting a grid| Using the color and display I was able to 
+select a section of the screen to hold my materials*/
+/*M4LO4 Demonstrate the use of gradients| Adding even more style to the grid with a gradient.*/
+
+/*M2LO12 Demonstrate how CSS can change presentation of page elements*/
+img {
+    max-width: 15%;
+    max-height: 45%;
+    padding-right: 25px;
+    float: left;
+    opacity: 0.7;
+    position: relative;
+    transform: scaleY(1);
+}
+/*M3LO2 Demonstrate floating elements. Using the float element I was able to place the image to the left of the text of steps */
+/*M3LO3 I contemplated using a clear here instead and seperating both into their own articles to align them side by side but for my page it seemed like I would confuse myself with that route for sizing.*/
+/*M2LO7 Demonstrate a CSS attribute selector other than class or id*/
+header{ 
+    color: gray;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+}
+/*M2LO15 Apply colors using CSS*/
+/*M2LO3 Demonstrate style precedence and inheritance in CSS */
+
+h2 {
+    display: block;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-shadow: 3px 3px gray;
+}
+/*M2LO13 Demonstrate how CSS can change presentation of textual elements */
+/*M2LO6  Demonstrate a CSS id and a CSS class selector (CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)*/
