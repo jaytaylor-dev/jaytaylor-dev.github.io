@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page 
+    (HTML, this item should be specified once, 
+    describing how the file it is in meets this outcome)-->
+<html>
+    <head>
+        <!--
+            CIS Web Development 1 - Project -V1
+            Creator: Javaris Taylor
+            Day: 5/1/20
+
+            Filename: index.html
+        -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon App De No Wheat</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="tables.css" />
+    <!--M1LO8 Demonstrate the use of external style sheets 
+        (HTML, note the external style sheet must exist and contain CSS)-->
+    </head>
+    <body>
+        <header>
+            <h1 style="color:black;">Gluten Freedom</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Gluten Freedom</a></li>
+                    <li class="dropdown"><a href="prep.html"  class="dropbtn">The Secret Recipe</a>
+                    <div class="drop-links">
+                        <a href="prep.html">Put it in a Bowl</a>
+                        <a href="cook.html">Put it in the Pan</a>
+                    </div></li>
+                    <li><a href="about.html">Project Timeline</a></li>
+                </ul>
+                <!--M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, 
+                    targeted location using ids, and external (HTML, this item should be specified 3 times, once on each type of link)-->
+            </nav>
+        <!--M1LO12 Create navigation using unordered lists (HTML)-->
+        </header>
+        <br />
+        <section><img id="yes" src="yes.png" alt="" />
+            <p id="p1">You may not have had the privilege of living with someone with a gluten intolerance. Well I have and I'm here to tell you everything is made with wheat or some form of gluten. 
+            I didn't know this, well not until my wife confessed to me her entire life she has been in pain and forced to eat what her body cannot digest. 
+            The times when she would make attempts, it would become more apparent how difficult it is to maintain this diet.</p>
+            <br />
+            <p id="p2"> So that day we started a journey to cook meals that tasted great and didn't double her over! We picked our favorite foods and started theorizing recipies
+            and ingredients we could combine to help her feel less trapped. To Find Her Gluten Freedom!</p>
+        </section>
+        <br />
+        <table>
+        <tr>
+            <th></th>
+            <th>Easy</th>
+            <th>Tedious</th>
+            <th>G. Ramsey</th>
+        </tr>
+        <tr>
+            <td>Difficulty</td>
+            <td>Walk in the park!</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>15 min tops</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Cost</td>
+            <td></td>
+            <td>Gluten Free Flour is Pretty Expensive</td>
+            <td></td>
+        </tr>
+        </table>
+        <!--M6LO3/4: This table is my quick glance at a recipe overview. It covers the price difficulty and time needed finish the food entirely
+        I redacted the spans because of the clutter, my goal for this portion of the project was to reduce the clutter and minimize all the content I had per page.-->          
+    </body>
+</html>

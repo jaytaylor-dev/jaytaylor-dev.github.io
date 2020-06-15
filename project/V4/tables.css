@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+/*
+CIS 155 Web Development - Project- V1 Style Sheet
+Developer: Javaris Taylor
+Date: 5/28/20
+
+Filename: style.css
+
+*/
+/* Table Styles */
+table {
+    background: linear-gradient(to right, rgba(216, 112, 147, 0.5) 20%, rgb(255, 218, 185)); 
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+/* M5LO5-7: Using the flexbox display allows me to stretch my content along the length of the table far easier.
+It also allowed me to use the linear gradient to keep the format theme consistent in through the table.*/
+
+th, td{
+    border: 2px solid palevioletred;
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 1.0em;
+}
+/* M6LO7: This entire stylesheet was dedicated to formatting the tables that I create for the website to match the theme of the webpage */
